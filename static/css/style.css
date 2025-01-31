@@ -1,0 +1,237 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.search-container input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.search-container button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.news-item {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 전체 페이지 스타일 */
+.main {
+    background-color: #f5f6f7;
+}
+
+/* 네이버 스타일 헤더 */
+.stTitle {
+    color: #03c75a !important;
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* 탭 스타일 */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+    background-color: #f8f9fa;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    padding: 0 24px;
+    background-color: white;
+    border-radius: 4px 4px 0 0;
+    color: #666;
+    font-weight: bold;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #03c75a !important;
+    color: white !important;
+}
+
+/* 입력 필드 스타일 */
+.stTextInput input {
+    border: 2px solid #03c75a;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* 버튼 스타일 */
+.stButton > button {
+    background-color: #03c75a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    background-color: #02b350;
+}
+
+/* 검색 결과 스타일 */
+.streamlit-expanderHeader {
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* 라디오 버튼 스타일 */
+.stRadio > div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* 텍스트 영역 스타일 */
+.stTextArea textarea {
+    border: 2px solid #03c75a;
+    border-radius: 4px;
+}
+
+/* 상담 내역 스타일 */
+.chat-message {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.user-message {
+    background-color: #e9ecef;
+}
+
+.assistant-message {
+    background-color: #d3f4e5;
+}
+
+/* 검색 결과 카드 스타일 */
+.news-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.news-title {
+    color: #03c75a;
+    margin: 0;
+}
+
+.news-content {
+    color: #666;
+    margin: 10px 0;
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+}
+
+.news-link {
+    color: #03c75a;
+    text-decoration: none;
+}
+
+/* 검색 영역 스타일 */
+.stSelectbox > div[data-baseweb="select"] {
+    min-height: 46px !important;
+}
+
+.stTextInput > div[data-baseweb="base-input"] {
+    min-height: 46px !important;
+    border: 2px solid #03c75a !important;
+    border-radius: 4px !important;
+    background-color: white !important;
+}
+
+.stTextInput input {
+    position: relative !important;
+    top: -1px !important;
+    min-height: 42px !important;
+    border: none !important;
+    background: transparent !important;
+    padding: 0 10px !important;
+    font-size: 16px !important;
+    line-height: 42px !important;
+}
+
+.stTextInput input:focus {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* 선택박스 스타일 */
+[data-baseweb="select"] {
+    height: 46px !important;
+    border: 2px solid #03c75a !important;
+    border-radius: 4px !important;
+}
+
+[data-baseweb="select"] > div {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* 검색 버튼 스타일 */
+.stButton > button {
+    min-height: 46px !important;
+    line-height: 46px !important;
+    padding: 0 20px !important;
+}
+
+/* 컨테이너 정렬 */
+.row-widget.stHorizontal {
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+/* 검색 영역 여백 조정 */
+.block-container {
+    padding-top: 2rem !important;
+    max-width: 1200px !important;
+} 
